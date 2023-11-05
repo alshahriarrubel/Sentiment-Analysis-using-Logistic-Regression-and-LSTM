@@ -1,6 +1,6 @@
 # Sentiment Analysis using Logistic Regression and LSTM
 
-Files:
+## Files:
 - model.py
   <br> This file contains two classes for two models:
   - LogisticRegression
@@ -47,5 +47,10 @@ Files:
 - glove.6B.300d.txt
   -	This file is for word embedding
 
+## How to run:
+* Command to Train and Test Logistic Regression
+-     Python train_logreg.py   
 
+* Command to Train and Test LSTM
+-     Python train_lstm.py   
 
