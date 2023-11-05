@@ -17,3 +17,35 @@ Files:
   -	Split the text of each line 
   - Extract first part of the splitted text that is a word
   - Extract remaining parts of the splitted text that is the corresponding vector of 300 dimensions
+
+-	train_logreg.py
+  -	This file is for training the logistic regression model
+  -	It loads the IMDB dataset
+  -	Split the dataset into train and test sets
+  -	Create the data loaders
+  -	Create the model
+  -	Define the loss function and optimizer
+  -	Train the model
+  -	Evaluate the model on the test set
+
+-	train_lstm.py
+  -	This file is for training the LSTM model
+  -	It loads the IMDB dataset
+  -	Split the dataset into train and test sets
+  -	Create the data loaders
+  -	Create the model
+  -	Define the loss function and optimizer
+  -	Train the model
+  -	Evaluate the model on the test set
+
+-	IMDB_Dataset.csv
+  -	It contains 25000 samples for sentiment analysis
+  -	Two classes: Negative, Positive
+
+-	Requirements.txt
+  -	It contains the commands for environment settings and necessary libraries installation
+-	glove.6B.300d.txt
+  -	This file is for word embedding
+
+
+
