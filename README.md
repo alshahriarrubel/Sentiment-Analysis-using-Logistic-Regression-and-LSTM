@@ -28,9 +28,7 @@ Files:
   -	Train the model
   -	Evaluate the model on the test set
 
-
-
--	train_lstm.py
+- train_lstm.py
   -	This file is for training the LSTM model
   -	It loads the IMDB dataset
   -	Split the dataset into train and test sets
