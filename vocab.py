@@ -9,7 +9,7 @@ class Vocab:
         self.embeddings = {}
 
         # Load the word embedding file glove.6B.300d.txt 
-        self.load_embeddings('glove.6B.300d.txt')
+        self.load_embeddings('data/glove.6B.300d.txt')
 
     def load_embeddings(self, filename):
         with open(filename, 'r', encoding='utf-8') as f:
