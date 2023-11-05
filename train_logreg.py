@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     # Split the dataset into train and test sets
     print('Splitting dataset into train and test sets...\n')
-    dataset = IMDBDataset("IMDB_Dataset.csv", vocab, stop_words, stemming=True)
+    dataset = IMDBDataset("data/IMDB_Dataset.csv", vocab, stop_words, stemming=True)
     train_dataset, test_dataset = random_split(dataset, [0.8, 0.2])
 
     # Create the data loaders
