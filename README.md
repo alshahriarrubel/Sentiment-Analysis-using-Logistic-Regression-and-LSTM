@@ -2,8 +2,8 @@
 
 Files:
 *	model.py
-  <br> --This file contains two classes for two models: 
+  <br> -This file contains two classes for two models: 
   * LogisticRegression
- 	* LSTM
+  * LSTM
 
 
