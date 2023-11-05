@@ -38,13 +38,13 @@ Files:
   -	Train the model
   -	Evaluate the model on the test set
 
--	IMDB_Dataset.csv
+- IMDB_Dataset.csv
   -	It contains 25000 samples for sentiment analysis
   -	Two classes: Negative, Positive
 
--	Requirements.txt
+- Requirements.txt
   -	It contains the commands for environment settings and necessary libraries installation
--	glove.6B.300d.txt
+- glove.6B.300d.txt
   -	This file is for word embedding
 
 
