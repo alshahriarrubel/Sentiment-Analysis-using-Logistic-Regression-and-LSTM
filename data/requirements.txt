@@ -1,0 +1,8 @@
+# Create Anaconda/Miniconda env in Mac
+conda create -n senti
+conda activate senti
+conda install pytorch::pytorch torchvision torchaudio -c pytorch
+conda install nltk
+conda install pandas
+conda install torchtext -c pytorch
+conda install scikit-learn
