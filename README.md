@@ -1,5 +1,7 @@
 # Sentiment Analysis using Logistic Regression and LSTM
 
+## Data Preparation
+Download the 'IMDB_Dataset.csv' file from [here](https://drive.google.com/file/d/17dE7Ln7a6xTqSztVov26h65crzVyZtsE/view?usp=drive_link) and 'glove.6B.300d.txt' file from [here](https://drive.google.com/file/d/16S_tOn1RcILzJv5qROWQ96R_CG8Wygd1/view?usp=drive_link) and keep them in data folder
 ## Files:
 - model.py
   <br> This file contains two classes for two models:
