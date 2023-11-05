@@ -18,7 +18,7 @@ Files:
   - Extract first part of the splitted text that is a word
   - Extract remaining parts of the splitted text that is the corresponding vector of 300 dimensions
 
--	train_logreg.py
+- train_logreg.py
   -	This file is for training the logistic regression model
   -	It loads the IMDB dataset
   -	Split the dataset into train and test sets
@@ -27,6 +27,8 @@ Files:
   -	Define the loss function and optimizer
   -	Train the model
   -	Evaluate the model on the test set
+
+
 
 -	train_lstm.py
   -	This file is for training the LSTM model
